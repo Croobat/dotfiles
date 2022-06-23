@@ -1,0 +1,55 @@
+[sncli]
+cfg_sn_username = tonyram9906@outlook.com
+cfg_sn_password = Arte234!
+
+# see http://urwid.org/manual/userinput.html for examples of more key combinations
+# Common
+kb_help = ?
+kb_quit = h
+kb_page_down = d
+kb_page_up = u
+kb_half_page_down = ctrl d
+kb_half_page_up = ctrl u
+kb_view_log = "
+
+#Note list
+kb_create_note = i
+kb_edit_note = enter
+kb_view_note = l
+kb_view_note_ext = meta l
+kb_note_trash = x
+
+#Configuration
+cfg_status_bar = no
+
+# Colors
+clr_note_title_day_fg = light green
+clr_note_title_week_fg = light green
+clr_note_title_month_fg = yellow
+clr_note_title_year_fg = yellow
+clr_note_title_ancient_fg = yellow
+clr_note_focus_bg = dark gray
+clr_help_focus_bg = dark gray
+clr_note_content_focus_bg = dark gray
+clr_note_content_old_focus_bg = dark gray
+
+
+# if this editor config value is not provided, the $EDITOR env var will be used instead
+# warning: if neither $EDITOR or cfg_editor is set, it will be impossible to edit notes
+# cfg_editor = nvim
+
+# alternatively, {fname} and/or {line} are substituted with the filename and
+# current line number in sncli's pager.
+# If {fname} isn't supplied, the filename is simply appended.
+# examples:
+cfg_editor = nvim {fname} +{line}
+# cfg_editor = nvim +{line}
+
+# this is also supported for the pager:
+cfg_pager = less -R -c +{line} -N {fname}
+
+# temp folder
+cfg_tempdir = /home/tony/.config/sncli/tmp/
+
+# db path
+cfg_db_path = /home/tony/.config/sncli/db/

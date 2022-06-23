@@ -1,0 +1,68 @@
+To Book
+
+MENTAL HEALTH AND EMOTIONS
+- [ ] Into thin air
+- [ ] To build a fire
+- [ ] Feeling good, David Burns
+- [ ] Meditations, Marcus Aurelius
+- [ ] Budismo books
+- [ ] Check dbt cbt
+- [ ] Body keeps the Score, Bessel van der Kolk
+- [ ] Los cuatro acuerdos
+- [ ] Tuesday with Morrie
+- [ ] Brain sex
+- [ ] Difficult conversations, Edward Stone
+- [ ] Conversationally speaking, Alan Garner
+- [ ] Mindsight, Daniel Seigel
+- [ ] Nonviolent communications
+- [ ] Being genuine
+- [ ] The language of emotions, Karla Mclaren
+- [ ] How emotions are made
+- [ ] The happiness advantage, Shawn Achor
+- [ ] The consolation of philosophy, Alain De Botton
+- [ ] The power of Vulnerability, Brene Brown
+- [ ] Six pillars of self esteem, Nathaniel Branden
+- [ ] How to have a good day, Caroline Webb
+- [ ] The obstacle is the way, Ryan Holiday
+- [ ] Man's searching for meaning, Victor E. Frankle
+- [ ] Furiously Happy or Let's Pretend This Never Happened, Jenny Lawson
+- [ ] Hyperbole and a half
+- [ ] The bell jar, Sylvia Plath
+- [ ] It's kind of a funny story, Ned Vizzini
+- [ ] My year of rest and relaxation
+
+FICTION
+- [ ] El Camino de los reyes, Brandon Sanderson
+- [ ] Dune
+
+ELECTRONICS
+- [ ] The art of electronics, Paul Horowitz
+- [ ]  electronic principles, Malvino
+- [ ] The ARRL Handbook radio communications
+- [ ] Digital computer electronics
+- [ ] electronic devices, Floyd
+- [ ] Grob's basic electronics, Mitchel E.
+- [ ] practical electronics for inventors, Simon Monk
+- [ ] electrical engineering 101, Darren ashby
+- [ ] The master handbook of 1001 more practical electronic circuits, edited by Michael L Fair
+- [ ] The giant handbook of electronic circuits
+- [ ] The encyclopedia of electronic circuits, Rudolph Graph
+- [ ] make: electronics
+- [ ] electronic circuits for the evil genius
+- [ ] electronic devices and circuit theory, boylestad
+- [ ] Microelectronic circuits, sedra smith
+- [ ]   TTL cookbook
+- [ ]   CMOS cookbook
+- [ ]   Encyclopedia of electronic components, Charles platt
+ - [ ] Getting started on electronics, Forrest m mims
+
+
+DOGS
+- [ ] The perfect puppy in 7 days
+- [ ] The other end of the leash, Patricia B. McConnell
+- [ ] Calming signals, Turid Ragaas
+- [ ] How to behave so your dog behaves, Sophia Yin
+
+
+TECH
+- [ ] Free as in freedom

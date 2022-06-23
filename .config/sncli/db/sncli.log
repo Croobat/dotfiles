@@ -1,0 +1,112 @@
+2022-06-11 10:04:43,189 [DEBUG] sncli logging initialized
+2022-06-11 10:04:43,190 [DEBUG] Starting new HTTPS connection (1): auth.simperium.com:443
+2022-06-11 10:04:43,600 [DEBUG] https://auth.simperium.com:443 "POST /1/chalk-bump-f49/authorize/ HTTP/1.1" 200 132
+2022-06-11 10:04:44,619 [DEBUG] Sync worker: started
+2022-06-11 10:04:44,620 [DEBUG] Starting full sync
+2022-06-11 10:04:44,623 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-11 10:04:44,900 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 32655
+2022-06-11 10:04:44,977 [DEBUG] Synced new note from server (key=426b7da5e8b549f9939bcc636149b9e6)
+2022-06-11 10:04:44,977 [DEBUG] Synced new note from server (key=2d352c7720aa452bb2916d18473db66a)
+2022-06-11 10:04:44,978 [DEBUG] Synced new note from server (key=98e6c72dcfc14938972e9abbcd27d2a4)
+2022-06-11 10:04:44,978 [DEBUG] Synced new note from server (key=967d2efc2f5f47bcb40de508e550cd9e)
+2022-06-11 10:04:44,979 [DEBUG] Synced new note from server (key=9ef158c9416b408b8e58ea0c8d2a9e49)
+2022-06-11 10:04:44,979 [DEBUG] Synced new note from server (key=3621b87fc07445309b9c3cce05ec8adf)
+2022-06-11 10:04:44,979 [DEBUG] Synced new note from server (key=3b8bd6aaf6d940949652ed0e34d79111)
+2022-06-11 10:04:44,980 [DEBUG] Synced new note from server (key=05201cf8548d4d97acaf964c7e2d67ac)
+2022-06-11 10:04:44,980 [DEBUG] Synced new note from server (key=f63301efccd245bca2bb1fe0483c1c73)
+2022-06-11 10:04:44,980 [DEBUG] Synced new note from server (key=cbe5420cf704493b8385e2736241fd92)
+2022-06-11 10:04:44,981 [DEBUG] Synced new note from server (key=36775539-ef2c-40e2-990d-43d908dec7c9)
+2022-06-11 10:04:44,981 [DEBUG] Synced new note from server (key=7b1c3bb2a627413bb324f993e64ecec6)
+2022-06-11 10:04:44,981 [DEBUG] Synced new note from server (key=895bd5b90f1a435587b5d7c66ce34339)
+2022-06-11 10:04:44,982 [DEBUG] Synced new note from server (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-11 10:04:44,982 [DEBUG] Synced new note from server (key=ae36b440565f4d30b08eee7e0ef1ac10)
+2022-06-11 10:04:44,983 [DEBUG] Synced new note from server (key=1b0f7375cc74445da79dc8570195c3d6)
+2022-06-11 10:04:44,983 [DEBUG] Synced new note from server (key=c2b00d04adc74d4d80884baf2975118b)
+2022-06-11 10:04:44,983 [DEBUG] Synced new note from server (key=58c35607b621428d92189a43acf26d97)
+2022-06-11 10:04:44,984 [DEBUG] Synced new note from server (key=5bc3d2896e3a47b8b799f559ede873f9)
+2022-06-11 10:04:44,984 [DEBUG] Synced new note from server (key=54033ebbf97a4d51b05c82a95f7c0d8f)
+2022-06-11 10:04:44,984 [DEBUG] Synced new note from server (key=f7b996fb5491489186e7943f2e2884b3)
+2022-06-11 10:04:44,985 [DEBUG] Synced new note from server (key=db4c35b35ac248a89693db2d5929926f)
+2022-06-11 10:04:44,985 [DEBUG] Synced new note from server (key=1d7748f5e6104189a37a0ef53194b25f)
+2022-06-11 10:04:44,985 [DEBUG] Synced new note from server (key=93abe3c2455e4821a16e25e611486a0a)
+2022-06-11 10:04:44,986 [DEBUG] Synced new note from server (key=1d8cfe81c0d84c2d8ae0851533cc45b9)
+2022-06-11 10:04:44,986 [DEBUG] Synced new note from server (key=7d8a716e93ba49d2bc6ad3351b69c273)
+2022-06-11 10:04:44,986 [DEBUG] Synced new note from server (key=4078e8a9-8126-439e-8b20-bc9b5ac8a17d)
+2022-06-11 10:04:44,987 [DEBUG] Synced new note from server (key=11defbab-75fb-416e-8f31-87f7dbaca39a)
+2022-06-11 10:04:44,987 [DEBUG] Synced new note from server (key=042fa98b-eab7-4145-bbd4-354e26de1476)
+2022-06-11 10:04:44,990 [DEBUG] Synced new note from server (key=d591447e-1fcf-468c-a12d-ee5bae0bb43b)
+2022-06-11 10:04:44,990 [DEBUG] Synced new note from server (key=agtzaW1wbGUtbm90ZXIRCxIETm90ZRiAgPC16cDBCQw)
+2022-06-11 10:04:44,991 [DEBUG] Saved note to disk (key=426b7da5e8b549f9939bcc636149b9e6)
+2022-06-11 10:04:44,992 [DEBUG] Saved note to disk (key=2d352c7720aa452bb2916d18473db66a)
+2022-06-11 10:04:44,993 [DEBUG] Saved note to disk (key=98e6c72dcfc14938972e9abbcd27d2a4)
+2022-06-11 10:04:44,993 [DEBUG] Saved note to disk (key=967d2efc2f5f47bcb40de508e550cd9e)
+2022-06-11 10:04:44,994 [DEBUG] Saved note to disk (key=9ef158c9416b408b8e58ea0c8d2a9e49)
+2022-06-11 10:04:44,995 [DEBUG] Saved note to disk (key=3621b87fc07445309b9c3cce05ec8adf)
+2022-06-11 10:04:44,996 [DEBUG] Saved note to disk (key=3b8bd6aaf6d940949652ed0e34d79111)
+2022-06-11 10:04:44,996 [DEBUG] Saved note to disk (key=05201cf8548d4d97acaf964c7e2d67ac)
+2022-06-11 10:04:44,997 [DEBUG] Saved note to disk (key=f63301efccd245bca2bb1fe0483c1c73)
+2022-06-11 10:04:44,998 [DEBUG] Saved note to disk (key=cbe5420cf704493b8385e2736241fd92)
+2022-06-11 10:04:44,999 [DEBUG] Saved note to disk (key=36775539-ef2c-40e2-990d-43d908dec7c9)
+2022-06-11 10:04:44,999 [DEBUG] Saved note to disk (key=7b1c3bb2a627413bb324f993e64ecec6)
+2022-06-11 10:04:45,000 [DEBUG] Saved note to disk (key=895bd5b90f1a435587b5d7c66ce34339)
+2022-06-11 10:04:45,001 [DEBUG] Saved note to disk (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-11 10:04:45,002 [DEBUG] Saved note to disk (key=ae36b440565f4d30b08eee7e0ef1ac10)
+2022-06-11 10:04:45,002 [DEBUG] Saved note to disk (key=1b0f7375cc74445da79dc8570195c3d6)
+2022-06-11 10:04:45,003 [DEBUG] Saved note to disk (key=c2b00d04adc74d4d80884baf2975118b)
+2022-06-11 10:04:45,004 [DEBUG] Saved note to disk (key=58c35607b621428d92189a43acf26d97)
+2022-06-11 10:04:45,005 [DEBUG] Saved note to disk (key=5bc3d2896e3a47b8b799f559ede873f9)
+2022-06-11 10:04:45,005 [DEBUG] Saved note to disk (key=54033ebbf97a4d51b05c82a95f7c0d8f)
+2022-06-11 10:04:45,006 [DEBUG] Saved note to disk (key=f7b996fb5491489186e7943f2e2884b3)
+2022-06-11 10:04:45,006 [DEBUG] Saved note to disk (key=db4c35b35ac248a89693db2d5929926f)
+2022-06-11 10:04:45,007 [DEBUG] Saved note to disk (key=1d7748f5e6104189a37a0ef53194b25f)
+2022-06-11 10:04:45,007 [DEBUG] Saved note to disk (key=93abe3c2455e4821a16e25e611486a0a)
+2022-06-11 10:04:45,008 [DEBUG] Saved note to disk (key=1d8cfe81c0d84c2d8ae0851533cc45b9)
+2022-06-11 10:04:45,008 [DEBUG] Saved note to disk (key=7d8a716e93ba49d2bc6ad3351b69c273)
+2022-06-11 10:04:45,009 [DEBUG] Saved note to disk (key=4078e8a9-8126-439e-8b20-bc9b5ac8a17d)
+2022-06-11 10:04:45,009 [DEBUG] Saved note to disk (key=11defbab-75fb-416e-8f31-87f7dbaca39a)
+2022-06-11 10:04:45,010 [DEBUG] Saved note to disk (key=042fa98b-eab7-4145-bbd4-354e26de1476)
+2022-06-11 10:04:45,010 [DEBUG] Saved note to disk (key=d591447e-1fcf-468c-a12d-ee5bae0bb43b)
+2022-06-11 10:04:45,011 [DEBUG] Saved note to disk (key=agtzaW1wbGUtbm90ZXIRCxIETm90ZRiAgPC16cDBCQw)
+2022-06-11 10:04:45,026 [DEBUG] Full sync completed
+2022-06-11 10:05:01,060 [DEBUG] sncli logging initialized
+2022-06-11 10:05:01,062 [DEBUG] Starting new HTTPS connection (1): auth.simperium.com:443
+2022-06-11 10:05:01,458 [DEBUG] https://auth.simperium.com:443 "POST /1/chalk-bump-f49/authorize/ HTTP/1.1" 200 132
+2022-06-11 10:05:02,504 [DEBUG] Sync worker: started
+2022-06-11 10:05:02,505 [DEBUG] Starting full sync
+2022-06-11 10:05:02,509 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-11 10:05:02,834 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 32655
+2022-06-11 10:05:02,918 [DEBUG] Full sync completed
+2022-06-11 10:07:17,865 [DEBUG] sncli logging initialized
+2022-06-11 10:07:17,867 [DEBUG] Starting new HTTPS connection (1): auth.simperium.com:443
+2022-06-11 10:07:18,269 [DEBUG] https://auth.simperium.com:443 "POST /1/chalk-bump-f49/authorize/ HTTP/1.1" 200 132
+2022-06-11 10:07:19,323 [DEBUG] Sync worker: started
+2022-06-11 10:07:19,324 [DEBUG] Starting full sync
+2022-06-11 10:07:19,329 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-11 10:07:19,680 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 32655
+2022-06-11 10:07:19,760 [DEBUG] Full sync completed
+2022-06-11 10:07:22,460 [DEBUG] EXECUTING: ['nvim', '/home/tony/.config/sncli/tmp/sncli-temp-1654960042-p9fz77qp.txt', '+10']
+2022-06-11 10:07:34,764 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-11 10:07:35,055 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 32655
+2022-06-11 10:07:39,734 [DEBUG] Note updated
+2022-06-11 10:07:39,734 [DEBUG] Note content updated (key=36775539-ef2c-40e2-990d-43d908dec7c9)
+2022-06-11 10:07:39,744 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-11 10:07:40,070 [DEBUG] https://api.simperium.com:443 "POST /1/chalk-bump-f49/note/i/36775539-ef2c-40e2-990d-43d908dec7c9?clientid=py-acfa4f4238eb47bba360a96df1705ef5&ccid=ff204874de234411bc9baccc0ea04c29&response=1 HTTP/1.1" 200 478
+2022-06-11 10:07:40,073 [DEBUG] Synced note to server (key=36775539-ef2c-40e2-990d-43d908dec7c9)
+2022-06-11 10:07:40,077 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-11 10:07:40,367 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 32694
+2022-06-11 10:07:40,444 [DEBUG] Synced newer note from server (key=36775539-ef2c-40e2-990d-43d908dec7c9)
+2022-06-11 10:07:40,445 [DEBUG] Saved note to disk (key=36775539-ef2c-40e2-990d-43d908dec7c9)
+2022-06-22 19:52:24,161 [DEBUG] sncli logging initialized
+2022-06-22 19:52:24,172 [DEBUG] Starting new HTTPS connection (1): auth.simperium.com:443
+2022-06-22 19:52:24,824 [DEBUG] https://auth.simperium.com:443 "POST /1/chalk-bump-f49/authorize/ HTTP/1.1" 200 132
+2022-06-22 19:52:25,842 [DEBUG] Sync worker: started
+2022-06-22 19:52:25,842 [DEBUG] Starting full sync
+2022-06-22 19:52:25,846 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-22 19:52:26,258 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 32991
+2022-06-22 19:52:26,334 [DEBUG] Synced newer note from server (key=426b7da5e8b549f9939bcc636149b9e6)
+2022-06-22 19:52:26,334 [DEBUG] Synced newer note from server (key=967d2efc2f5f47bcb40de508e550cd9e)
+2022-06-22 19:52:26,335 [DEBUG] Synced newer note from server (key=9ef158c9416b408b8e58ea0c8d2a9e49)
+2022-06-22 19:52:26,336 [DEBUG] Saved note to disk (key=426b7da5e8b549f9939bcc636149b9e6)
+2022-06-22 19:52:26,337 [DEBUG] Saved note to disk (key=967d2efc2f5f47bcb40de508e550cd9e)
+2022-06-22 19:52:26,338 [DEBUG] Saved note to disk (key=9ef158c9416b408b8e58ea0c8d2a9e49)
+2022-06-22 19:52:26,372 [DEBUG] Full sync completed

@@ -1,0 +1,14 @@
+{
+  "tags": [],
+  "deleted": false,
+  "shareURL": "",
+  "publishURL": "",
+  "content": "Conexiones hidr\u00e1ulicas\n\n\nAlimentaci\u00f3n (fuente, salida arriba) a  entrada distribuidor (lateral)\n\nTanque (T ank) a retorno (fuente, salida abajo) (0rimero conectar retorno)\n\nSalida distribuidor (cualquier frontal) a bomba ( P ump)\nCilindro inferior a B\nCilindro superior a A \n\nConectar bomba (P) no hasta el final\n\nAgregar reguladores de caudal en A y B (antes de man\u00f3metro)\n\nA es el que baja, B sube\n\n9-10 Bar en man\u00f3metro\n",
+  "systemTags": [],
+  "modificationDate": 1653331149,
+  "creationDate": 1649386799,
+  "key": "3621b87fc07445309b9c3cce05ec8adf",
+  "version": 18,
+  "syncdate": 1654959884.6201937,
+  "localkey": "3621b87fc07445309b9c3cce05ec8adf"
+}

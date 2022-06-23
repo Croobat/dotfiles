@@ -1,0 +1,11 @@
+To do
+- [x] Revisar respaldo configuraciones
+- [ ] Rutinas gimnasio
+- [ ] check sc-im alternatives
+- [x] Actualizar contraseñas
+- [x] Bitwarden
+- [x] Instalar Arch
+- [x] KDE Connect
+- [x] Revisar DE y WM
+- [x] Revisar Odysee y LBRY
+- [x] Sincronizar notas keep y desinstalar esa mierda
