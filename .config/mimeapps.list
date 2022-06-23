@@ -1,0 +1,17 @@
+[Default Applications]
+image/png=feh.desktop
+audio/mpeg=mpv.desktop
+text/html=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/about=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/unknown=org.qutebrowser.qutebrowser.desktop
+application/pdf=org.pwmt.zathura.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-I4EXM1.desktop
+message/rfc822=userapp-Thunderbird-I4EXM1.desktop
+x-scheme-handler/mid=userapp-Thunderbird-I4EXM1.desktop
+
+[Added Associations]
+application/octet-stream=Alacritty.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-I4EXM1.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-I4EXM1.desktop;
