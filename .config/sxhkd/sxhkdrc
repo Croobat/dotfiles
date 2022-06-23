@@ -1,0 +1,166 @@
+### Basic binds ###
+# Terminal
+#super + Return
+#    alacritty --working-directory /home/tony
+
+#File manager
+#super + shift + Return
+#   Alacritty -e ranger /home/tony
+
+# File manager
+super + alt + e
+    nautilus
+
+# Web browser
+super + alt + w
+    qutebrowser
+
+# Image viewer
+super + alt + p
+    qimgv
+
+
+
+### Tools ###
+# Rofi
+super + r
+    rofi -show drun
+# Show windows
+alt + Tab
+    rofi -show window
+# Show commands
+super + F2
+    rofi -show run
+# Show ssh
+super + F3
+    rofi -show ssh
+# Rofi beats
+XF86Tools
+    alacritty --title rofi-beats -e ./.scripts/rofi-beats
+# Clipboard history
+super + c
+    rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+# Show emojis
+super + slash
+   rofi -show emoji
+
+# Screenshot
+Print
+    flameshot gui
+# Escanear
+super + Print
+    simple-scan
+
+# Mail
+XF86Mail
+   thunderbird
+
+# Htop
+control + shift + Escape
+    alacritty -e htop
+
+# Volume control
+super + shift + v
+    pavucontrol
+super + control + shift + v
+    alacritty -e pulsemixer
+
+# Help
+super + question
+    /home/tony/.scripts/help-keybindings.sh
+
+# Kill
+control + alt + x
+    xkill
+
+### Music player ###
+XF86AudioPlay
+    playerctl play-pause
+XF86AudioStop
+    playerctl stop
+XF86AudioPrev
+    playerctl previous
+XF86AudioNext
+    playerctl next
+XF86AudioLowerVolume
+    playerctl volume .05-
+XF86AudioRaiseVolume
+    playerctl volume .05+
+XF86AudioMute
+    playerctl volume 1-
+
+### Apps ###
+## App packs
+# (Art) Asep | Blen | Ink | Kri | Tcty
+super + alt + a ; {a, b, i, k, t}
+    {aseprite, blender, inkscape, krita, tenacity}
+
+# (IDEs) Ard | Cod | Gen | Net | Pyc | VSC
+super + alt + i ; {a, c, g, n, p, v}
+    {arduino, codeblocks, geany, netbeans, pycharm, vscodium}
+
+# (Misc) Calibre | Cheese
+super + alt + m ; {c,p}
+    {calibre,cheese}
+
+
+## Apps
+# Virtualbox
+super + alt + b
+    virtualbox
+
+# Cmus
+super + alt + c
+    alacritty --title cmus -e cmus
+
+# Discord
+super + alt + d
+    discord
+
+# FreeCAD
+super + alt + f
+    freecad
+
+# Godot
+#super + alt + g
+#    godot
+
+# Kdenlive
+super + alt + k
+    kdenlive
+
+# Libreoffice
+super + alt + l
+    libreoffice
+
+# Simplenote
+super + alt + n
+    alacritty --title sncli -e sncli
+
+# OBS
+super + alt + o
+    obs-studio
+
+# Steam
+#super + alt + s
+#    steam
+
+# Spotify
+super + alt + t
+    alacritty --title ncspot -e ncspot
+
+# VLC
+super + alt + v
+    vlc
+
+
+## Webapps
+# Whatsapp
+super + alt + z
+    whatsapp-nativefier
+
+# super + alt       OCUPADOS         LIBRES
+#               abcdefghiklmnopstvwz  hjqruxy
+
+# super             OCUPADOS         LIBRES
+#               rc. F1 F2 F3       abdefghijklmnopqstuvwxyz
