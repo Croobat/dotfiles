@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# Dual monitor
+# xrandr --output HDMI-0 --mode 1920x1080 --rate 99.93
+xrandr --output HDMI-0 --mode 1920x1080 --rate 144
+xrandr --output HDMI-1-1 --auto --pos -1600x500
+
+# Keyboard altgr-intl swap caps esc
+# setxkbmap -layout us -variant altgr-intl -option nodeadkeys -option caps:swapescape
+setxkbmap -layout us -variant altgr-intl -option caps:swapescape
+
+# Default exports
+export QT_QPA_PLATFORMTHEME=qt5ct
+export EDITOR=nvim
+export RANGER_DEVICONS_SEPARATOR="  "
+
+# Add custom scripts to path
+export PATH="${PATH}:/home/tony/Applications/scripts"
+
+# Dotfile exports
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+compinit -d $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
+zstyle ':completion:*' cache-path $XDG_CACHE_HOME/zsh/zcompcache
+export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+
+# Slow Mouse
+xinput set-prop 'Logitech G203 LIGHTSYNC Gaming Mouse' 'libinput Accel Speed' -0.8
+
+# Fast Keyboard
+xset r rate 250 40
+
+# Hibernate
+xset -dpms
+xset s off
+
+# Startup apps
+
+sxhkd -t 2 &
+imwheel -b "45" &
+xbindkeys -f "$XDG_CONFIG_HOME"/xbindkeys/config &
+picom &
+flameshot &
+nitrogen --restore &
+greenclip daemon &
+dunst &
+numlockx &
+unclutter &
+alacritty --title launch-nvim -e nvim &
+
+while true; do
+	while true; do
+		xsetroot -name "$( date +"%F %R")"
+		sleep 1m
+	done &
+	# Log stderror to a file
+	dwm 2> ~/.config/dwm/dwm.log
+	# No error logging
+	#dwm >/dev/null 2>&1
+done
