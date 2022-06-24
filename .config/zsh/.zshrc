@@ -91,11 +91,11 @@ eval $(dircolors -b ~/.config/zsh/.zsh_dir_colors)
 
 
 # Auto notify plugin
-zstyle ':notify:*' blacklist-regex 'find|rofi|sncli|zathura|ranger|joplin'
+zstyle ':notify:*' blacklist-regex 'find|rofi|sncli|zathura|ranger|joplin|ra'
 zstyle ':notify:*' command-complete-timeout 180
 zstyle ':notify:*' error-log /dev/null
 zstyle ':notify:*' always-check-active-window no
-zstyle ':notify:*' expire-time 2500
+zstyle ':notify:*' expire-time 1000
 
 ZSH_DISABLE_COMPFIX=true
 
@@ -204,8 +204,6 @@ alias ra="ranger"
 
 # conf aliases
 alias zconf="vim ~/.config/zsh/.zshrc"
-alias dwconf="cd ~/.config/dwm"
-alias rangerconf="cd ~/.config/ranger"
 alias piconf="vim ~/.config/picom/picom.conf"
 alias alaconf="vim ~/.config/alacritty/alacritty.yml"
 alias bindsconf="vim ~/.config/sxhkd/sxhkdrc"
@@ -213,17 +211,16 @@ alias quteconf="vim ~/.config/qutebrowser/config.py"
 alias qutemarks="vim ~/.config/qutebrowser/quickmarks"
 alias qutequick="vim ~/.config/qutebrowser/quickmarks"
 alias xinit="vim ~/.config/X11/xinitrc"
+
+alias dwconf="cd ~/.config/dwm"
+alias rangerconf="cd ~/.config/ranger"
 alias vimconf="cd ~/.config/nvim"
-alias nvidia-settings="nvidia-settings --config=\"$XDG_CONFIG_HOME\"/nvidia/settings"
-
-alias awconf="vim ~/.config/awesome/rc.lua"
-alias awtconf="vim ~/.config/awesome/theme.lua"
-alias profile="vim ~/.xprofile"
-
+alias packerconf="cd ~/.local/share/nvim/site/pack/packer"
 
 # location aliases
 alias desk="cd /usr/share/applications"
 alias platzi="cd ~/Dev/Platzi"
+
 
 ## New commands
 alias du1='du --max-depth=1'

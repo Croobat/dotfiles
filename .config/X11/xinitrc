@@ -14,8 +14,16 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export EDITOR=nvim
 export RANGER_DEVICONS_SEPARATOR="  "
 
-# Add custom scripts to path
-export PATH="${PATH}:/home/tony/Applications/scripts"
+
+# what to add to path
+NPATH="$HOME/.scripts"
+
+# add it only if required
+case ":${PATH}:" in
+  *:${NPATH}:*) ;;
+  *) PATH=${PATH}:$NPATH ;;
+esac
+export PATH
 
 # Dotfile exports
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg

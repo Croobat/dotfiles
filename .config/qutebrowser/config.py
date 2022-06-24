@@ -19,11 +19,11 @@ c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?q={}',
                        'yt': 'https://www.youtube.com/results?search_query={}',
                        'am': 'https://www.amazon.com/s?k={}',
                        'aw': 'https://wiki.archlinux.org/?search={}',
-                       # 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}',
                        'aur': 'https://archlinux.org/packages/?sort=&q={}',
                        'pirate': 'https://thepiratebay.org/search.php?q={}',
                        'red': 'https://www.reddit.com/r/{}',
                        'pex': 'https://www.pexels.com/search/{}',
+                       'gh': 'https://github.com/search?q={}',
                        'wiki': 'https://en.wikipedia.org/wiki/{}'}
 
 c.completion.web_history.exclude = [

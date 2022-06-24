@@ -67,7 +67,7 @@ super + control + shift + v
 
 # Help
 super + question
-    /home/tony/.scripts/help-keybindings.sh
+    /home/tony/.scripts/help-keybindings
 
 # Kill
 control + alt + x
