@@ -2,6 +2,7 @@
 image/png=feh.desktop
 audio/mpeg=mpv.desktop
 text/html=org.qutebrowser.qutebrowser.desktop
+text/markdown=org.qutebrowser.qutebrowser.desktop
 x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
 x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
 x-scheme-handler/about=org.qutebrowser.qutebrowser.desktop

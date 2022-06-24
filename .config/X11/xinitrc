@@ -2,8 +2,8 @@
 
 # Dual monitor
 # xrandr --output HDMI-0 --mode 1920x1080 --rate 99.93
-xrandr --output HDMI-0 --mode 1920x1080 --rate 144
-xrandr --output HDMI-1-1 --auto --pos -1600x500
+xrandr --output HDMI-0 --mode 1920x1080 --rate 120
+xrandr --output HDMI-1-1 --auto --pos -1600x400
 
 # Keyboard altgr-intl swap caps esc
 # setxkbmap -layout us -variant altgr-intl -option nodeadkeys -option caps:swapescape
@@ -35,7 +35,6 @@ xset -dpms
 xset s off
 
 # Startup apps
-
 sxhkd -t 2 &
 imwheel -b "45" &
 xbindkeys -f "$XDG_CONFIG_HOME"/xbindkeys/config &
@@ -46,7 +45,7 @@ greenclip daemon &
 dunst &
 numlockx &
 unclutter &
-alacritty --title launch-nvim -e nvim &
+#alacritty --title launch-nvim -e nvim &
 
 while true; do
 	while true; do
