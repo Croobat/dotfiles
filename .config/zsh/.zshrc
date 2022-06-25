@@ -89,9 +89,10 @@ eval $(dircolors -b ~/.config/zsh/.zsh_dir_colors)
 # USER CONFIGURATION #
 ######################
 
-
 # Auto notify plugin
-zstyle ':notify:*' blacklist-regex 'find|rofi|sncli|zathura|ranger|joplin|ra'
+AUTO_NOTIFY_IGNORE+=(
+  "ranger" "ra" "find" "rofi" "sncli" "zathura" "joplin" "vim" "nvim" "less" "more" "man" "tig" "watch" "git commit" "top" "htop" "ssh" "nano" "zconf"
+)
 zstyle ':notify:*' command-complete-timeout 180
 zstyle ':notify:*' error-log /dev/null
 zstyle ':notify:*' always-check-active-window no
@@ -182,6 +183,7 @@ alias android-umount='fusermount -uz ~/.mnt'
 alias svn="svn --config-dir \"$XDG_CONFIG_HOME\"/subversion"
 alias gitfetch="onefetch"
 alias upgrade="yay -Syu --combinedupgrade"
+alias lgit="lazygit"
 
 
 # App aliases

@@ -31,6 +31,7 @@ export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 compinit -d $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
 zstyle ':completion:*' cache-path $XDG_CACHE_HOME/zsh/zcompcache
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+export GOPATH="$XDG_DATA_HOME"/go
 
 # Slow Mouse
 xinput set-prop 'Logitech G203 LIGHTSYNC Gaming Mouse' 'libinput Accel Speed' -0.8

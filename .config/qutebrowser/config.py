@@ -48,6 +48,8 @@ config.bind(
     'xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
 config.bind('j', 'run-with-count 3 scroll down')
 config.bind('k', 'run-with-count 3 scroll up')
+config.bind('<Ctrl-j>', 'run-with-count 15 scroll down')
+config.bind('<Ctrl-k>', 'run-with-count 15 scroll up')
 config.bind('J', 'tab-prev')
 config.bind('K', 'tab-next')
 
