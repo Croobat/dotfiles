@@ -91,7 +91,7 @@ eval $(dircolors -b ~/.config/zsh/.zsh_dir_colors)
 
 # Auto notify plugin
 AUTO_NOTIFY_IGNORE+=(
-  "ranger" "ra" "find" "rofi" "sncli" "zathura" "joplin" "vim" "nvim" "less" "more" "man" "tig" "watch" "git commit" "top" "htop" "ssh" "nano" "zconf"
+  "ranger" "ra" "find" "rofi" "sncli" "zathura" "joplin" "vim" "nvim" "less" "more" "man" "tig" "watch" "git commit" "top" "htop" "ssh" "nano" "zconf" "su"
 )
 zstyle ':notify:*' command-complete-timeout 180
 zstyle ':notify:*' error-log /dev/null
@@ -184,6 +184,10 @@ alias svn="svn --config-dir \"$XDG_CONFIG_HOME\"/subversion"
 alias gitfetch="onefetch"
 alias upgrade="yay -Syu --combinedupgrade"
 alias lgit="lazygit"
+alias firefoxserver="live-server --browser=firefox"
+alias chromeserver="live-server --browser=google-chrome-stable"
+alias quteserver="live-server --browser=qutebrowser"
+alias unzip="unzip -d ./zip"
 
 
 # App aliases
@@ -221,7 +225,8 @@ alias packerconf="cd ~/.local/share/nvim/site/pack/packer"
 
 # location aliases
 alias desk="cd /usr/share/applications"
-alias platzi="cd ~/Dev/Platzi"
+alias platzi="cd ~/Developer/platzi"
+alias wdev="cd ~/Developer/web-dev"
 
 
 ## New commands

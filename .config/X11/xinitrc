@@ -12,6 +12,7 @@ setxkbmap -layout us -variant altgr-intl -option caps:swapescape
 # Default exports
 export QT_QPA_PLATFORMTHEME=qt5ct
 export EDITOR=nvim
+export VISUAL=nvim
 export RANGER_DEVICONS_SEPARATOR="  "
 
 

@@ -110,3 +110,48 @@
 2022-06-22 19:52:26,337 [DEBUG] Saved note to disk (key=967d2efc2f5f47bcb40de508e550cd9e)
 2022-06-22 19:52:26,338 [DEBUG] Saved note to disk (key=9ef158c9416b408b8e58ea0c8d2a9e49)
 2022-06-22 19:52:26,372 [DEBUG] Full sync completed
+2022-06-25 21:52:03,876 [DEBUG] sncli logging initialized
+2022-06-25 21:52:03,886 [DEBUG] Starting new HTTPS connection (1): auth.simperium.com:443
+2022-06-25 21:52:04,311 [DEBUG] https://auth.simperium.com:443 "POST /1/chalk-bump-f49/authorize/ HTTP/1.1" 200 132
+2022-06-25 21:52:05,360 [DEBUG] Sync worker: started
+2022-06-25 21:52:05,360 [DEBUG] Starting full sync
+2022-06-25 21:52:05,364 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 21:52:05,724 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 32991
+2022-06-25 21:52:05,809 [DEBUG] Full sync completed
+2022-06-25 21:52:07,152 [DEBUG] EXECUTING: ['nvim', '/home/tony/.config/sncli/tmp/sncli-temp-1656211927-2i39yh2d.txt', '+8']
+2022-06-25 21:52:10,383 [DEBUG] Note updated
+2022-06-25 21:52:10,383 [DEBUG] Note content updated (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-25 21:52:10,387 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 21:52:10,705 [DEBUG] https://api.simperium.com:443 "POST /1/chalk-bump-f49/note/i/1a154f67265c4dbfa9d56398220936b6?clientid=py-3e3a758bf0064ec5bc6084d25ac2372a&ccid=e93cd7997efb4b27a812282ba3d6c7ad&response=1 HTTP/1.1" 200 217
+2022-06-25 21:52:10,709 [DEBUG] Synced note to server (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-25 21:52:10,713 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 21:52:11,014 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 33051
+2022-06-25 21:52:11,092 [DEBUG] Synced newer note from server (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-25 21:52:11,093 [DEBUG] Saved note to disk (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-25 21:52:26,134 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 21:52:26,420 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 33051
+2022-06-25 21:52:41,505 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 21:52:41,786 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 33051
+2022-06-25 21:52:56,869 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 21:52:57,155 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 33051
+2022-06-25 23:16:03,747 [DEBUG] sncli logging initialized
+2022-06-25 23:16:03,749 [DEBUG] Starting new HTTPS connection (1): auth.simperium.com:443
+2022-06-25 23:16:04,246 [DEBUG] https://auth.simperium.com:443 "POST /1/chalk-bump-f49/authorize/ HTTP/1.1" 200 132
+2022-06-25 23:16:05,308 [DEBUG] Sync worker: started
+2022-06-25 23:16:05,308 [DEBUG] Starting full sync
+2022-06-25 23:16:05,312 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 23:16:05,838 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 33051
+2022-06-25 23:16:05,936 [DEBUG] Full sync completed
+2022-06-25 23:16:12,352 [DEBUG] EXECUTING: ['nvim', '/home/tony/.config/sncli/tmp/sncli-temp-1656216972-y396d8f0.txt', '+4']
+2022-06-25 23:16:20,941 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 23:16:21,231 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 33051
+2022-06-25 23:16:25,379 [DEBUG] EXECUTING: ['nvim', '/home/tony/.config/sncli/tmp/sncli-temp-1656216985-9bguwkf6.txt', '+4']
+2022-06-25 23:16:31,870 [DEBUG] Note updated
+2022-06-25 23:16:31,870 [DEBUG] Note content updated (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-25 23:16:31,873 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 23:16:32,199 [DEBUG] https://api.simperium.com:443 "POST /1/chalk-bump-f49/note/i/1a154f67265c4dbfa9d56398220936b6?clientid=py-05e07cf01fb3493ea1ff735fac14da77&ccid=bc139dc9050243f9b36ba086a81602c4&response=1 HTTP/1.1" 200 261
+2022-06-25 23:16:32,203 [DEBUG] Synced note to server (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-25 23:16:32,207 [DEBUG] Starting new HTTPS connection (1): api.simperium.com:443
+2022-06-25 23:16:32,553 [DEBUG] https://api.simperium.com:443 "GET /1/chalk-bump-f49/note/index?limit=100&data=1 HTTP/1.1" 200 33095
+2022-06-25 23:16:32,642 [DEBUG] Synced newer note from server (key=1a154f67265c4dbfa9d56398220936b6)
+2022-06-25 23:16:32,644 [DEBUG] Saved note to disk (key=1a154f67265c4dbfa9d56398220936b6)

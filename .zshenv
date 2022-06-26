@@ -1,3 +1,5 @@
+export skip_global_compinit=1
+
 # main xdg paths
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
