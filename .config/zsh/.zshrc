@@ -5,6 +5,10 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
 export ZSH="$HOME/.config/zsh/.oh-my-zsh"
 
+# Add ruby to path
+# export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+# export PATH="$PATH:$GEM_HOME/bin"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

@@ -311,8 +311,10 @@ handle_mime() {
                 --force -- "${FILE_PATH}" && exit 5
             env COLORTERM=8bit bat --color=always --style="plain" \
                 -- "${FILE_PATH}" && exit 5
-            pygmentize -f "${pygmentize_format}" -O "style=${PYGMENTIZE_STYLE}"\
+            pygmentize -f "${pygmentize_format}" -O stripnl=true -O "style=${PYGMENTIZE_STYLE}"\
                 -- "${FILE_PATH}" && exit 5
+            # cat "${FILE_PATH}" && exit 5
+            # pygmentize -f "terminal256" -O "style=dracula" "${FILE_PATH}" && exit 5
             exit 2;;
 
         ## DjVu
