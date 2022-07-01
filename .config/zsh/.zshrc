@@ -192,6 +192,7 @@ alias firefoxserver="live-server --browser=firefox"
 alias chromeserver="live-server --browser=google-chrome-stable"
 alias quteserver="live-server --browser=qutebrowser"
 alias unzip="unzip -d ./zip"
+alias vw="vim ~/Documents/vimwiki/index.wiki"
 
 
 # App aliases
@@ -221,6 +222,7 @@ alias quteconf="vim ~/.config/qutebrowser/config.py"
 alias qutemarks="vim ~/.config/qutebrowser/quickmarks"
 alias qutequick="vim ~/.config/qutebrowser/quickmarks"
 alias xinit="vim ~/.config/X11/xinitrc"
+alias muttconf="vim ~/.config/neomutt/neomuttrc"
 
 alias dwconf="cd ~/.config/dwm"
 alias rangerconf="cd ~/.config/ranger"
