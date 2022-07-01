@@ -225,6 +225,8 @@ alias xinit="vim ~/.config/X11/xinitrc"
 alias dwconf="cd ~/.config/dwm"
 alias rangerconf="cd ~/.config/ranger"
 alias vimconf="cd ~/.config/nvim"
+alias viminit="vim ~/.config/nvim/init.lua"
+alias vimplug="nvim ~/.config/nvim/lua/plugins.lua"
 alias packerconf="cd ~/.local/share/nvim/site/pack/packer"
 
 # location aliases
