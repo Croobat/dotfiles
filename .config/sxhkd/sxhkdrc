@@ -99,6 +99,10 @@ super + alt + a ; {a, b, i, k, t}
 super + alt + i ; {a, c, g, n, p, v}
     {arduino, codeblocks, geany, netbeans, pycharm, vscodium}
 
+# (Gaming) Steam | lutris
+super + alt + g ; {s, l}
+    {steam, lutris}
+
 # (Misc) Calibre | Cheese
 super + alt + m ; {c,p}
     {calibre,cheese}
@@ -121,10 +125,6 @@ super + alt + d
 super + alt + f
     freecad
 
-# Godot
-#super + alt + g
-#    godot
-
 # Kdenlive
 super + alt + k
     kdenlive
@@ -140,10 +140,6 @@ super + alt + n
 # OBS
 super + alt + o
     obs-studio
-
-# Steam
-#super + alt + s
-#    steam
 
 # Spotify
 super + alt + t

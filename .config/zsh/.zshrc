@@ -95,7 +95,9 @@ eval $(dircolors -b ~/.config/zsh/.zsh_dir_colors)
 
 # Auto notify plugin
 AUTO_NOTIFY_IGNORE+=(
-  "ranger" "ra" "find" "rofi" "sncli" "zathura" "joplin" "vim" "nvim" "less" "more" "man" "tig" "watch" "git commit" "top" "htop" "ssh" "nano" "zconf" "su"
+  "ranger" "ra" "find" "rofi" "sncli" "zathura" "joplin" "vim" "nvim" "less"
+  "more" "man" "tig" "watch" "git commit" "top" "htop" "ssh" "nano" "zconf"
+  "su" "mutt" "firefoxserver" "chromeserver"
 )
 zstyle ':notify:*' command-complete-timeout 180
 zstyle ':notify:*' error-log /dev/null
@@ -188,11 +190,14 @@ alias svn="svn --config-dir \"$XDG_CONFIG_HOME\"/subversion"
 alias gitfetch="onefetch"
 alias upgrade="yay -Syu --combinedupgrade"
 alias lgit="lazygit"
-alias firefoxserver="live-server --browser=firefox"
+alias firefoxserver="live-server --browser=firefox-developer-edition"
 alias chromeserver="live-server --browser=google-chrome-stable"
 alias quteserver="live-server --browser=qutebrowser"
 alias unzip="unzip -d ./zip"
 alias vw="vim ~/Documents/vimwiki/index.wiki"
+alias trad="trans -t spanish"
+alias readme="vim README.md"
+alias license="vim LICENSE"
 
 
 # App aliases
@@ -211,6 +216,7 @@ alias todos="topydo ls"
 alias td="topydo"
 alias 2048="2048 bluered"
 alias ra="ranger"
+alias mutt="neomutt"
 
 
 # conf aliases
@@ -235,6 +241,8 @@ alias packerconf="cd ~/.local/share/nvim/site/pack/packer"
 alias desk="cd /usr/share/applications"
 alias platzi="cd ~/Developer/platzi"
 alias wdev="cd ~/Developer/web-dev"
+alias vwcd="cd ~/Documents/vimwiki"
+alias latex-cv="cd ~/Documents/LaTeX/curriculum-vitae/"
 
 
 ## New commands

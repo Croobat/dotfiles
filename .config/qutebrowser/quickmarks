@@ -15,7 +15,7 @@
 <GAM>lgra https://www.leagueofgraphs.com/
 <GAM>lsrc https://www.metasrc.com/aram/na/tierlist
 <GAM>lut https://lutris.net/
-<GAM>prot https://www.protondb.com/
+<GAM>protondb https://www.protondb.com/
 <LEA>ipn https://www.zacatecas.ipn.mx/
 <LEA>mentor https://www.frontendmentor.io/
 <LEA>pla https://platzi.com/
@@ -75,7 +75,7 @@ webpack-generator https://createapp.dev/
 lgra https://www.leagueofgraphs.com/
 lsrc https://www.metasrc.com/aram/na/tierlist
 lut https://lutris.net/
-prot https://www.protondb.com/
+protondb https://www.protondb.com/
 ipn https://www.zacatecas.ipn.mx/
 mentor https://www.frontendmentor.io/
 pla https://platzi.com/
